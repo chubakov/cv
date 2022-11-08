@@ -75,7 +75,7 @@ a:visited {
     padding: 0 20px;
 }
 
-.test li {
+.list li {
     color: #86898f;
     margin-bottom: 10px;
 }
@@ -83,3 +83,4 @@ a:visited {
 .table {
     width: 100%;
 }
+
