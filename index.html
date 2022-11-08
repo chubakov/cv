@@ -13,16 +13,18 @@
     <div class="container">
         <div class="info">
             <img src="avatar.jpg" width="200" alt="тут моё фото" class="avatar" />
-            <h1>Чубаков Андрей</h1>
-            <p>Я люблю путешествовать , посещать выставки и музеи</p>
-            <p>А так же занимаюсь прогромированием</p>
 
-            <h4>Мои социальные сети</h4>
+            <div class="info-text">
+                <h1>Чубаков Андрей</h1>
+                <p>Я люблю путешествовать , посещать выставки и музеи</p>
+                <p>А так же занимаюсь прогромированием</p>
 
-            <a href="https://web.telegram.org/k/" target="_blank">Телеграмм</a>
-            |
-            <a href="https://www.instagram.com/andr7930?r=nametag " target="_blank">Инстаграмм</a>
+                <h4>Мои социальные сети</h4>
 
+                <a href="https://web.telegram.org/k/" target="_blank">Телеграмм</a>
+                |
+                <a href="https://www.instagram.com/andr7930?r=nametag " target="_blank">Инстаграмм</a>
+            </div>
         </div>
 
         <div class="card bg-yellow">
@@ -52,25 +54,31 @@
         </div>
 
 
-        <h2>Связаться со мной</h2>
+        <div class="contact">
+            <h2>Связаться со мной</h2>
 
-        <form action="/">
-            <lable for="name">Ваше имя:</lable>
-            <input type="text" id="name" placeholder="Начните ввводить ваше имя">
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <lable for="name">Ваше имя:</lable>
+                        <input type="text" id="name" placeholder="Начните ввводить ваше имя">
+                    </div>
 
-            <br>
+                    <div class="form-group">
+                        <lable for="name">Ваш email:</lable>
+                        <input type="email" id="email" placeholder="Начните ввводить ваше email">
+                    </div>
+                </div>
 
-            <lable for="name">Ваш email:</lable>
-            <input type="email" id="email" placeholder="Начните ввводить ваше email">
+                <div class="form-group">
+                    <label for="text">Ваше сообщение:</label>
+                    <br>
+                    <textarea Id="text"></textarea>
+                </div>
 
-            <br>
-
-            <label for="text">Ваше сообщение:</label>
-            <br>
-            <textarea Id="text"></textarea>
-
-            <input type="submit" value="Свзаться!">
-        </form>
+                <input type="submit" value="Свзаться!">
+            </form>
+        </div>
     </div>
 </body>
 

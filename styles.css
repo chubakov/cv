@@ -36,6 +36,15 @@ a:visited {
 
 .info {
     margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 80px;
+}     
+
+.info-text h4 {
+    margin-bottom: 10px;
 }
 
 .info p {
@@ -47,19 +56,17 @@ a:visited {
 }
 
 .container {
+    padding-top: 30px;
     max-width: 750px;
     margin: auto;
 }
 
-
 .bg-yellow {
     background: #fff9dc;
-
 }
 .bg-green {
     background: #e5ffe7;  
 }
-
 
 .card {
     padding: 15px 20px;
@@ -84,3 +91,35 @@ a:visited {
     width: 100%;
 }
 
+.contact h2 {
+    text-align: center;
+}
+
+.form-group lable {
+    display: block;
+    font-style: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: a15 px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
